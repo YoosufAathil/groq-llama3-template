@@ -14,7 +14,7 @@ chat_completion = client.chat.completions.create(
     messages=[
         {
             "role": "user",
-            "content": "Explain the importance of fast language models",
+            "content": "How can LLMs enhance the functionality of a Java-based backend system",
         }
     ],
     model="llama3-8b-8192",
