@@ -12,7 +12,7 @@ def chatbot():
     print("Hello! I'm your chatbot. You can ask me questions. If you want to exit, type 'bye'.")
     
     while True:
-        user_input = input("Enter your message: ")
+        user_input = input("Enter your message (type 'bye' to exit): ")
         
         if user_input.lower() == 'bye':
             break
